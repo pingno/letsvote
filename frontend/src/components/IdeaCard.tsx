@@ -2,11 +2,16 @@
 import React from 'react';
 import VotingButton from './VotingButton';
 
-const IdeaCard: React.FC = () => {
+interface IdeaCardProps {
+  title: string;
+  description: string;
+}
+
+const IdeaCard: React.FC<IdeaCardProps> = ({ title, description }) => {
   return (
     <div className="idea-card">
-      <h2>Idea Title</h2>
-      <p>Description of the idea goes here...</p>
+      <h2>{title}</h2>
+      <p>{description}</p>
       <VotingButton />
     </div>
   );
