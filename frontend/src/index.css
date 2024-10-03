@@ -216,3 +216,43 @@ textarea {
   color: #555;
 }
 
+/* Navbar */
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  color: #1e40af;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .idea-card {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .idea-form, .comment-section, .user-profile {
+    padding: 15px;
+  }
+
+  .idea-list {
+    grid-template-columns: 1fr;
+  }
+}
