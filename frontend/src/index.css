@@ -50,3 +50,42 @@ button:focus {
   outline: none;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
 }
+
+
+/* Idea Form */
+.idea-form {
+  background-color: white;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+  max-width: 650px;
+  margin: 25px auto;
+}
+
+.idea-form h2 {
+  font-size: 1.85rem;
+  margin-bottom: 25px;
+}
+
+.idea-form input[type="text"],
+.idea-form textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 18px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #f9fafb;
+  transition: border-color 0.3s ease;
+}
+
+.idea-form input[type="text"]:focus,
+.idea-form textarea:focus {
+  border-color: #3b82f6;
+  outline: none;
+}
+
+textarea {
+  height: 160px;
+  resize: vertical;
+}
