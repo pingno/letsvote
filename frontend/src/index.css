@@ -228,3 +228,21 @@ textarea {
   color: #388e3c;  /* Slightly darker green */
 }
 
+/* Responsiveness */
+@media (max-width: 768px) {
+  .idea-card {
+    padding: 18px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .idea-form, .comment-section, .user-profile {
+    padding: 18px;
+  }
+
+  .idea-list {
+    grid-template-columns: 1fr;
+  }
+}
