@@ -89,3 +89,50 @@ textarea {
   height: 150px;
   resize: vertical;
 }
+
+
+/* Comment Section */
+.comment-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);  /* Softer shadow */
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.comment-section h3 {
+  font-size: 1.6rem;
+  margin-bottom: 16px;
+}
+
+.comment-section form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.comment-section form button {
+  width: 100%;
+  background-color: #4CAF50;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.comment-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.comment-section li {
+  background-color: #f7f7f7;  /* Lighter background */
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  font-size: 1rem;
+  border: 1px solid #eee;  /* Lighter border */
+}
