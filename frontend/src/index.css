@@ -170,3 +170,39 @@ textarea {
 .user-profile li span {
   font-weight: 500;
 }
+
+/* Idea List */
+.idea-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  margin: 20px;
+}
+
+
+/* Idea Card */
+.idea-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.idea-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);  /* Slightly deeper shadow */
+}
+
+.idea-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  color: #4CAF50;  /* Green accent */
+}
+
+.idea-card p {
+  font-size: 1.125rem;
+  margin-bottom: 18px;
+  color: #777;
+}
+
