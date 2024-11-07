@@ -136,3 +136,37 @@ textarea {
   font-size: 1rem;
   border: 1px solid #eee;  /* Lighter border */
 }
+
+/* User Profile */
+.user-profile {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.user-profile h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.user-profile ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-profile li {
+  background-color: #f7f7f7;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-profile li span {
+  font-weight: 500;
+}
