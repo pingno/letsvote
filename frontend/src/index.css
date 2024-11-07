@@ -206,3 +206,25 @@ textarea {
   color: #777;
 }
 
+/* Navbar */
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  color: #388e3c;  /* Slightly darker green */
+}
+
